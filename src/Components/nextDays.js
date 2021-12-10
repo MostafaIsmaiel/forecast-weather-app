@@ -8,7 +8,7 @@ const NextDays = ({ data, days, celsius }) => {
         const weekDay = days[new Date(date).getDay()];
         return (
           <div className="day" key={date_epoch}>
-            <h4 className="name">{weekDay}</h4>
+            <h4 className="name">{index === 0 ? "Today" : weekDay}</h4>
             <div className="status-img">
               <img
                 src={`./images/weather/day/${day.condition.code}.png`}

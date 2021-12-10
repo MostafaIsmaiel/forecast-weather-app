@@ -1,5 +1,5 @@
 # Forecast weather app
-![background](./images/Background.png)
+![background](./Background.png)
 
 ## About
 Forecast weather app has accurate weather information for anytime and everywhere depended on [weatherApi.com](https://www.weatherapi.com/).
